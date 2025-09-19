@@ -16,14 +16,14 @@ Before running the script, ensure you have the following installed:
 
 ## Usage 
 ```
-usage: convert_to_safetensor.py [-h] [--source_dir SOURCE_DIR] [--destination_dir DESTINATION_DIR]
+usage: python convert_to_safetensor.py [-h] [--source_dir SOURCE_DIR] [--destination_dir DESTINATION_DIR]
 
 Python utililty to convert weights in `bin` format to `safetensors` format.
 
 options:
   -h, --help  show this help message and exit
-  --source_dir SOURCE_DIR
+  --src_directory SOURCE_DIR
                         Path to the directory which contains the `pytorch_model.bin` file
-  --destination_dir DESTINATION_DIR
+  --dest_directory DESTINATION_DIR
                         Path to the directory where the model in safetensors format and related JSON files will be stored
 ```
